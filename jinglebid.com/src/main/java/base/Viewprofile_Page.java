@@ -44,5 +44,8 @@ public class Viewprofile_Page extends TestBase {
 		confirmpwd.sendKeys("Gopinath@123");
 		updbtn.click();
 	}
+	public void deliveryaddressadd() {
+		
+	}
 
 }
