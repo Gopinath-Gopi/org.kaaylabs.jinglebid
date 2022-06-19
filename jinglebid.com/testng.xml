@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test">
+	<listeners>
+		<listener class-name="extentreport.Extent"></listener>
+	</listeners>
+	<test thread-count="5" name="regression">
+		<classes>
+			<class name="testcases.Viewprofile_Test" />
+		</classes>
+	</test> <!-- regression -->
+</suite> <!-- Test -->
